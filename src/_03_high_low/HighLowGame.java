@@ -9,10 +9,11 @@ public class HighLowGame {
 
 	public static void main(String[] args) {
 		// 3. Change this line to give you a random number between 1 - 100. 
-		int random = new Random().nextInt(5);
+		int random = new Random().nextInt(100);
 		
 		// 2. Print out the random variable above
-		
+		int r= Integer.parseInt(random);
+		println(r);
 		// 11. Repeat steps 1 to 10 ten times
 		
 			// 1. Ask the user for a guess using a pop-up window, and save their response 
