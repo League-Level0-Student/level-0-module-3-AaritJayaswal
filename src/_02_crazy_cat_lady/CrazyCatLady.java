@@ -19,7 +19,7 @@ if (c >= 3) {
 	
 }
 		// 4. If they have less than 3 cats AND more than 0 cats, call the method below to show them a cat video
-else if (c <= 2|c > 0) {
+else if (c < 3 && c > 0) {
 	
 playVideo("https://www.youtube.com/watch?v=XyNlqQId-nk");
 }
