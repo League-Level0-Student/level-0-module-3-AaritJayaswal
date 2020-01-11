@@ -6,7 +6,7 @@ int r = 150;
 int s = -1;
 int z = 1;
 void draw() {
-  background(150, 200, 150);
+  background(127,127, 127);
   int x = 300;
   for (int i = 0; i<20; i++) {
 
